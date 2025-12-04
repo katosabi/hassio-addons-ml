@@ -106,8 +106,10 @@ panel_admin: false
 panel_icon: mdi:file-search
 ports:
   8080/tcp: 8181
+  3003/tcp: 3003
 ports_description:
   8080/tcp: Web UI port
+  3003/tcp: 3003
 privileged:
   - SYS_ADMIN
   - DAC_READ_SEARCH
