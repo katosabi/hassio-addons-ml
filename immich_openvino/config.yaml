@@ -109,7 +109,7 @@ ports:
   3003/tcp: 3003
 ports_description:
   8080/tcp: Web UI port
-  3003/tcp: 3003
+  3003/tcp: ML Port
 privileged:
   - SYS_ADMIN
   - DAC_READ_SEARCH
